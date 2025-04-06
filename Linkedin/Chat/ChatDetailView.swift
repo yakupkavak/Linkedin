@@ -6,7 +6,7 @@ struct ChatDetailView: View {
     
     // Diğer kullanıcı (sohbet ettiğimiz kişi)
     let otherUser: UserModel
-    
+    //deneme
     @StateObject private var chatVM = ChatViewModel()
     
     var body: some View {
